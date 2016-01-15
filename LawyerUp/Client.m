@@ -1,21 +1,21 @@
 //
-//  Lawyer.m
+//  Client.m
 //  LawyerUp
 //
 //  Created by Graeme Harrison on 2016-01-14.
 //  Copyright © 2016 Graeme Harrison. All rights reserved.
 //
 
-#import "Lawyer.h"
+#import "Client.h"
 
-@implementation Lawyer
+@implementation Client
 
-- (instancetype)initWithName:(NSString *)name
+- (instancetype)initWithName:(NSString *)name problem:(NSString *)problem
 {
     self = [super init];
     if (self) {
         _name = name;
-        _clientList = [[NSMutableDictionary alloc] init];
+        _problem = problem;
     }
     return self;
 }

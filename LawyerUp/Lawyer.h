@@ -7,9 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Practice.h"
 
 @interface Lawyer : NSObject
 
 @property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *specialty;
+@property (nonatomic, strong) NSNumber *rate;
+@property (nonatomic, strong) NSMutableDictionary *clientList;
+
+-(instancetype)initWithName:(NSString *)name;
 
 @end

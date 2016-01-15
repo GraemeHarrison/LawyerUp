@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2E99DFF11C4872ED00D1494F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99DFF01C4872ED00D1494F /* main.m */; };
 		2E99DFF91C48735000D1494F /* Lawyer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99DFF81C48735000D1494F /* Lawyer.m */; };
+		2E99DFFC1C4874F400D1494F /* Practice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99DFFB1C4874F400D1494F /* Practice.m */; };
+		2E99DFFF1C487A4F00D1494F /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99DFFE1C487A4F00D1494F /* Client.m */; };
+		2E99E0021C48819000D1494F /* Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99E0011C48819000D1494F /* Associate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		2E99DFF01C4872ED00D1494F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E99DFF71C48735000D1494F /* Lawyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lawyer.h; sourceTree = "<group>"; };
 		2E99DFF81C48735000D1494F /* Lawyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lawyer.m; sourceTree = "<group>"; };
+		2E99DFFA1C4874F400D1494F /* Practice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Practice.h; sourceTree = "<group>"; };
+		2E99DFFB1C4874F400D1494F /* Practice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Practice.m; sourceTree = "<group>"; };
+		2E99DFFD1C487A4F00D1494F /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		2E99DFFE1C487A4F00D1494F /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		2E99E0001C48819000D1494F /* Associate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Associate.h; sourceTree = "<group>"; };
+		2E99E0011C48819000D1494F /* Associate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Associate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				2E99DFF01C4872ED00D1494F /* main.m */,
+				2E99DFFD1C487A4F00D1494F /* Client.h */,
+				2E99DFFE1C487A4F00D1494F /* Client.m */,
+				2E99E0001C48819000D1494F /* Associate.h */,
+				2E99E0011C48819000D1494F /* Associate.m */,
 				2E99DFF71C48735000D1494F /* Lawyer.h */,
 				2E99DFF81C48735000D1494F /* Lawyer.m */,
+				2E99DFFA1C4874F400D1494F /* Practice.h */,
+				2E99DFFB1C4874F400D1494F /* Practice.m */,
 			);
 			path = LawyerUp;
 			sourceTree = "<group>";
@@ -123,7 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E99DFFC1C4874F400D1494F /* Practice.m in Sources */,
 				2E99DFF11C4872ED00D1494F /* main.m in Sources */,
+				2E99DFFF1C487A4F00D1494F /* Client.m in Sources */,
+				2E99E0021C48819000D1494F /* Associate.m in Sources */,
 				2E99DFF91C48735000D1494F /* Lawyer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
